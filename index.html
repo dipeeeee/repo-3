@@ -4,24 +4,44 @@
     <title>Yo Yo Honey Singh</title>
     <style>
         body {
-            font-family: Arial;
-            background-color: #fff5cc;
+            margin: 0;
+            font-family: 'Segoe UI';
+            background: linear-gradient(to right, #f7971e, #ffd200);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            color: black;
+        }
+        .card {
+            background: rgba(255,255,255,0.2);
+            padding: 30px;
+            border-radius: 15px;
+            backdrop-filter: blur(10px);
             text-align: center;
+            width: 350px;
+            box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+            transition: 0.3s;
+        }
+        .card:hover {
+            transform: scale(1.05);
         }
         img {
-            width: 300px;
-            border-radius: 10px;
+            width: 220px;
+            border-radius: 15px;
+            margin: 15px 0;
         }
     </style>
 </head>
 <body>
 
-    <h1>Yo Yo Honey Singh</h1>
-
-    <img src="https://i.imgur.com/4AiXzf8.jpg" alt="Honey Singh">
-
-    <p>Yo Yo Honey Singh is a famous Indian rapper, music producer, and singer.</p>
-    <p>Famous Songs: Brown Rang, Desi Kalakaar, Blue Eyes</p>
+<div class="card">
+    <h1><b>Yo Yo Honey Singh</b></h1>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/3/32/Honey_Singh.jpg">
+    <p><b>Famous Songs:</b></p>
+    <p>Brown Rang • Blue Eyes • Desi Kalakaar</p>
+    <p>India’s rap king 🔥</p>
+</div>
 
 </body>
 </html>
